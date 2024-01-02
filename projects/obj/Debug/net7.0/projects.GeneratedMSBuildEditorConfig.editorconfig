@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = projects
 build_property.RootNamespace = projects
-build_property.ProjectDir = C:\Users\EMRECAN ERKUŞ\Desktop\emre\projects\
+build_property.ProjectDir = C:\Users\EMRECAN ERKUŞ\Documents\GitHub\FilmFlix\projects\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\EMRECAN ERKUŞ\Desktop\emre\projects
+build_property.MSBuildProjectDirectory = C:\Users\EMRECAN ERKUŞ\Documents\GitHub\FilmFlix\projects
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Home/Film.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Home/Film.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWxtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Home/Liste.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Home/Liste.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Home/Page.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Home/Page.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Home/Register.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Shared/Error.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/_ViewImports.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/_ViewStart.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMRECAN ERKUŞ/Desktop/emre/projects/Views/Shared/_Layout.cshtml]
+[C:/Users/EMRECAN ERKUŞ/Documents/GitHub/FilmFlix/projects/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-viyxiqq0b4

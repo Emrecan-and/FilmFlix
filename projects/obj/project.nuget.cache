@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MyVnXfwv4CjecQv67iOz+Lw+3iHZktQuFo+h84XRECZ4BrQbiBt3avMfMCJBfvulLTZLOjKBKhCBLurFeZGCTQ==",
+  "dgSpecHash": "JrFtLSqhIekSnLHsYGXLc1yrjIrNX28bw+dYN1iQKXf9qPeXYZOnO0XzvkqErZDhOHds08wRXtdeeaNRY5/t6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EMRECAN ERKUŞ\\Desktop\\emre\\projects\\projects.csproj",
+  "projectFilePath": "C:\\Users\\EMRECAN ERKUŞ\\Documents\\GitHub\\FilmFlix\\projects\\projects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EMRECAN ERKUŞ\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\EMRECAN ERKUŞ\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.8\\microsoft.data.sqlite.core.7.0.8.nupkg.sha512",

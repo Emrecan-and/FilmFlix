@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EMRECAN ERKUŞ\\Desktop\\emre\\projects\\projects.csproj": {}
+    "C:\\Users\\EMRECAN ERKUŞ\\Documents\\GitHub\\FilmFlix\\projects\\projects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EMRECAN ERKUŞ\\Desktop\\emre\\projects\\projects.csproj": {
+    "C:\\Users\\EMRECAN ERKUŞ\\Documents\\GitHub\\FilmFlix\\projects\\projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EMRECAN ERKUŞ\\Desktop\\emre\\projects\\projects.csproj",
+        "projectUniqueName": "C:\\Users\\EMRECAN ERKUŞ\\Documents\\GitHub\\FilmFlix\\projects\\projects.csproj",
         "projectName": "projects",
-        "projectPath": "C:\\Users\\EMRECAN ERKUŞ\\Desktop\\emre\\projects\\projects.csproj",
+        "projectPath": "C:\\Users\\EMRECAN ERKUŞ\\Documents\\GitHub\\FilmFlix\\projects\\projects.csproj",
         "packagesPath": "C:\\Users\\EMRECAN ERKUŞ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EMRECAN ERKUŞ\\Desktop\\emre\\projects\\obj\\",
+        "outputPath": "C:\\Users\\EMRECAN ERKUŞ\\Documents\\GitHub\\FilmFlix\\projects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EMRECAN ERKUŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
