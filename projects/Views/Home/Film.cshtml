@@ -1,0 +1,65 @@
+@model List<Film>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+           
+           <a class="navbar-brand" asp-area="" style="font-size: xx-large;">FilmFlix</a>
+          
+     
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Film" >Filmler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Liste" >Film Listem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a class="navbar-brand"    style="color: rgb(83, 39, 39); margin-right: 50px;" asp-area=""  >Hoşgeldin @ViewBag.MySessionValue</a>
+        <a class="navbar-brand"  asp-controller="Home" asp-action="LogOut"  style="color: rgb(170, 4, 4);" asp-area=""  >Oturumu Kapat</a>
+    </nav>
+</header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Listesi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Filmler</h1>
+        @for (int i = 0; i < Model.Count; i += 3)
+        {
+            <div class="row">
+                @for (int j = i; j < i + 3 && j < Model.Count; j++)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="~/images/sinema.jpg" class="card-img-top" alt="Film">
+                            <div class="card-body">
+                                <h5 class="card-title">@Model[j].FilmName</h5>
+                                <p class="card-text">@Model[j].FilmType</p>
+                                <a href="#" class="btn btn-primary">@Model[j].Imdb</a>
+                                <h1></h1>
+                                <form asp-controller="Home" asp-action="Film" method="post">
+                                    <input type="hidden" name="FilmName" class="form-control" value="@Model[j].FilmName">
+                                <button type="submit" class="btn btn-secondary">Film Listene Ekle</button>  
+                                </form>                  
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+    
+</body>

@@ -1,0 +1,52 @@
+@model List<List>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" style="font-size: xx-large;">FilmFlix</a>
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Film" >Filmler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Liste" >Film Listem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a class="navbar-brand"    style="color: rgb(83, 39, 39); margin-right: 50px;" asp-area=""  >Hoşgeldin @ViewBag.MySessionValue</a>
+        <a class="navbar-brand"  asp-controller="Home" asp-action="LogOut"  style="color: rgb(170, 4, 4);" asp-area=""  >Oturumu Kapat</a>
+    </nav>
+</header>
+<div class="container mt-5">
+    <h2>İzlenecekler Listem</h2>
+    
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Film İsmi</th>
+                <th>Listeye Eklenen Tarih</th>
+                <th>İzlendi</th> <!-- Sil butonu için boş hücre -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var list in Model){
+            <tr>
+                <td>@list.FilmName</td>
+                <td>@list.Date</td>
+                <td>
+                    <form asp-controller="Home" asp-action="Liste" method="post">
+                     <input type="hidden" name="FilmName" value="@list.FilmName">
+                    <button type="submit" class="btn btn-danger" >Sil</button>
+                    </form>
+                </td>
+            </tr>}
+        </tbody>
+    </table>
+</div>
+
